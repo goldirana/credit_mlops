@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/8da75d74d0204507a34dc5a1c3a6f2ae/artifacts
+deleted_time: 1703358655183
+end_time: 1703358600247
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8da75d74d0204507a34dc5a1c3a6f2ae
+run_name: casual-rat-255
+run_uuid: 8da75d74d0204507a34dc5a1c3a6f2ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703358598689
+status: 4
+tags: []
+user_id: goldyrana

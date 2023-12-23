@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/66c02fbc014643cda89e6bd0c461fb10/artifacts
+deleted_time: 1703358655189
+end_time: 1703358574133
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 66c02fbc014643cda89e6bd0c461fb10
+run_name: lyrical-seal-870
+run_uuid: 66c02fbc014643cda89e6bd0c461fb10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703358572599
+status: 4
+tags: []
+user_id: goldyrana

@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/90865519658c44618d1d71ab2064cb54/artifacts
+deleted_time: 1703358659757
+end_time: 1703358559374
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 90865519658c44618d1d71ab2064cb54
+run_name: burly-finch-253
+run_uuid: 90865519658c44618d1d71ab2064cb54
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703358559345
+status: 4
+tags: []
+user_id: goldyrana

@@ -45,8 +45,6 @@ class meta_data:
     # model_version_name = config_file["model_path"]["model_version_name"]
     # model_version_note_name = config_file["model_path"]["model_version_note_name"]
 
-# to make directory of the model
-os.makedirs(meta_data.model_name, exist_ok = True)
 
 def fit_pca(data:pd.DataFrame, n_components: int):
     """Function is called to fit the PCA

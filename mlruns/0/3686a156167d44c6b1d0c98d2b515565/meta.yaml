@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/3686a156167d44c6b1d0c98d2b515565/artifacts
+end_time: 1703358813908
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3686a156167d44c6b1d0c98d2b515565
+run_name: upset-squirrel-161
+run_uuid: 3686a156167d44c6b1d0c98d2b515565
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703358810095
+status: 3
+tags: []
+user_id: goldyrana
