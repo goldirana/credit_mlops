@@ -1,0 +1,28 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.8.18
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.2
+mlflow_version: 2.9.2
+model_size_bytes: 101043
+model_uuid: 6c452a6dce114ab7a940b76eb8e08f97
+run_id: 4d12b9b71c82463abbafeb0e3a6251a3
+signature:
+  inputs: '[{"type": "long", "name": "flag_own_realty"}, {"type": "long", "name":
+    "cnt_children"}, {"type": "double", "name": "amt_income_total"}, {"type": "long",
+    "name": "name_income_type"}, {"type": "long", "name": "name_education_type"},
+    {"type": "double", "name": "days_birth"}, {"type": "double", "name": "days_employed"},
+    {"type": "long", "name": "occupation_type"}, {"type": "double", "name": "cnt_fam_members"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2023-12-23 18:13:15.000584'

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1703355169948
+current_stage: None
+description: null
+last_updated_timestamp: 1703355169948
+name: random_forest
+run_id: f66ca4da64f5492f9e046c2d5371867a
+run_link: null
+source: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/f66ca4da64f5492f9e046c2d5371867a/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/f66ca4da64f5492f9e046c2d5371867a/artifacts/model
+user_id: null
+version: 1

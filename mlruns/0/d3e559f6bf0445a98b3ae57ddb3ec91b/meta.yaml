@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/d3e559f6bf0445a98b3ae57ddb3ec91b/artifacts
+end_time: 1703356041328
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3e559f6bf0445a98b3ae57ddb3ec91b
+run_name: salty-lark-800
+run_uuid: d3e559f6bf0445a98b3ae57ddb3ec91b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703355896787
+status: 3
+tags: []
+user_id: goldyrana

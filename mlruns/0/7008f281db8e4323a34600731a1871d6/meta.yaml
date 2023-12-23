@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/7008f281db8e4323a34600731a1871d6/artifacts
+end_time: 1703355613339
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7008f281db8e4323a34600731a1871d6
+run_name: meaou12
+run_uuid: 7008f281db8e4323a34600731a1871d6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703355608600
+status: 3
+tags: []
+user_id: goldyrana

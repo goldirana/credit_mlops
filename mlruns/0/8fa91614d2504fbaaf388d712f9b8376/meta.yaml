@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/8fa91614d2504fbaaf388d712f9b8376/artifacts
+deleted_time: 1703357162004
+end_time: 1703356900545
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 8fa91614d2504fbaaf388d712f9b8376
+run_name: delicate-moose-373
+run_uuid: 8fa91614d2504fbaaf388d712f9b8376
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703356899022
+status: 4
+tags: []
+user_id: goldyrana

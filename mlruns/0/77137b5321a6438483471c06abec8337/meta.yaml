@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/77137b5321a6438483471c06abec8337/artifacts
+deleted_time: 1703357161995
+end_time: 1703354416666
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 77137b5321a6438483471c06abec8337
+run_name: crawling-kit-778
+run_uuid: 77137b5321a6438483471c06abec8337
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703354416618
+status: 4
+tags: []
+user_id: goldyrana

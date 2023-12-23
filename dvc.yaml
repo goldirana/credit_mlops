@@ -26,6 +26,8 @@ stages:
     - data/interim/null_data.csv
     - src/features/build_features.py
     outs:
-    - data/processed/processed_data.csv
+    - data/processed/train_data.csv
+    - data/processed/test_data.csv
+    - data/prediction/prediction.csv
 
   

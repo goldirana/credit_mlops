@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/503802fb1f0e486b94106d603487b3ba/artifacts
+deleted_time: 1703357162003
+end_time: 1703356828113
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 503802fb1f0e486b94106d603487b3ba
+run_name: secretive-shrike-207
+run_uuid: 503802fb1f0e486b94106d603487b3ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703356826596
+status: 4
+tags: []
+user_id: goldyrana

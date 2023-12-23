@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1703354752650
+current_stage: None
+description: null
+last_updated_timestamp: 1703354752650
+name: sklearn.ensemble.RandomForestClassifier
+run_id: d113731f96724a1caef30b9f57e5e160
+run_link: null
+source: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/d113731f96724a1caef30b9f57e5e160/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/d113731f96724a1caef30b9f57e5e160/artifacts/model
+user_id: null
+version: 2

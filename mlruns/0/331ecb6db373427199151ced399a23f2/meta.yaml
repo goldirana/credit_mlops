@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/331ecb6db373427199151ced399a23f2/artifacts
+deleted_time: 1703357161994
+end_time: 1703354343874
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 331ecb6db373427199151ced399a23f2
+run_name: melodic-carp-895
+run_uuid: 331ecb6db373427199151ced399a23f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703354343846
+status: 4
+tags: []
+user_id: goldyrana

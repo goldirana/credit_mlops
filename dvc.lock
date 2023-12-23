@@ -13,8 +13,8 @@ stages:
       size: 15367102
     - path: src/data/make_dataset.py
       hash: md5
-      md5: ef710c5afc557d161058941b3d31fe2b
-      size: 3973
+      md5: ee307821177beb4d8324e47d522adf7e
+      size: 4096
     outs:
     - path: data/interim/joined_data.csv
       hash: md5
@@ -29,14 +29,42 @@ stages:
       size: 54890894
     - path: src/data/process_data.py
       hash: md5
-      md5: edef7b0234f8aab7945dd90537f8a06c
-      size: 2525
+      md5: c0d920997e5b261b1b5e08f13cfc3130
+      size: 2830
     outs:
     - path: data/interim/not_null.csv
       hash: md5
-      md5: 689dd3ac0cd30012a63a097bb6ee348b
-      size: 2497438
+      md5: dda3c71f772559c04c716036e90779f2
+      size: 2856968
     - path: data/interim/null_data.csv
       hash: md5
-      md5: 55088693f56e8f69a5d2e7b79dd13fcb
-      size: 26339534
+      md5: 9139486f71ed7f6be53caa36642663b5
+      size: 30352658
+  feature_engineering:
+    cmd: python src/features/build_features.py --config=params.yaml
+    deps:
+    - path: data/interim/not_null.csv
+      hash: md5
+      md5: dda3c71f772559c04c716036e90779f2
+      size: 2856968
+    - path: data/interim/null_data.csv
+      hash: md5
+      md5: 9139486f71ed7f6be53caa36642663b5
+      size: 30352658
+    - path: src/features/build_features.py
+      hash: md5
+      md5: e2d05ea6ca7af12f13483ee424dee138
+      size: 7343
+    outs:
+    - path: data/prediction/prediction.csv
+      hash: md5
+      md5: 1c71dd7e57a4aed04b42f94d560ff556
+      size: 29978393
+    - path: data/processed/test_data.csv
+      hash: md5
+      md5: dd609f20eb4f93954e9c2beae8e090b3
+      size: 565658
+    - path: data/processed/train_data.csv
+      hash: md5
+      md5: deae01050afb8511dd3660bbc969ba7f
+      size: 2262109

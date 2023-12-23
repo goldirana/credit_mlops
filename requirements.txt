@@ -12,6 +12,7 @@ dvc
 
 # machine learning packages
 xgboost
+imblearn
 catboost
 mlflow
 

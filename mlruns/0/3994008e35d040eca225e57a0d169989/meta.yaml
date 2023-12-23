@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/3994008e35d040eca225e57a0d169989/artifacts
+end_time: 1703354433149
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3994008e35d040eca225e57a0d169989
+run_name: wistful-hawk-920
+run_uuid: 3994008e35d040eca225e57a0d169989
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703354429581
+status: 3
+tags: []
+user_id: goldyrana

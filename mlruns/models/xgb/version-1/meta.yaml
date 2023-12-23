@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1703357669810
+current_stage: None
+description: null
+last_updated_timestamp: 1703357669810
+name: xgb
+run_id: 3662788ff7004f0e8a192f00f78dffb5
+run_link: null
+source: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/3662788ff7004f0e8a192f00f78dffb5/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/3662788ff7004f0e8a192f00f78dffb5/artifacts/model
+user_id: null
+version: 1

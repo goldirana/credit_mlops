@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/3662788ff7004f0e8a192f00f78dffb5/artifacts
+end_time: 1703357670002
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3662788ff7004f0e8a192f00f78dffb5
+run_name: thundering-wolf-174
+run_uuid: 3662788ff7004f0e8a192f00f78dffb5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703357667719
+status: 3
+tags: []
+user_id: goldyrana

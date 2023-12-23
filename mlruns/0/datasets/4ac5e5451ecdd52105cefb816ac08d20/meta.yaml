@@ -1,0 +1,11 @@
+digest: 5eb2c13d
+name: dataset
+profile: '{"num_rows": 29165, "num_elements": 262485}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "flag_own_realty"}, {"type":
+  "long", "name": "cnt_children"}, {"type": "double", "name": "amt_income_total"},
+  {"type": "long", "name": "name_income_type"}, {"type": "long", "name": "name_education_type"},
+  {"type": "double", "name": "days_birth"}, {"type": "double", "name": "days_employed"},
+  {"type": "long", "name": "occupation_type"}, {"type": "double", "name": "cnt_fam_members"}]}'
+source: '{"tags": {"mlflow.user": "goldyrana", "mlflow.source.name": "src/models/train_and_evaluate.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "4c8e67216d392e651c22a3d65873945e438019e7"}}'
+source_type: code

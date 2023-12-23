@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1703356034962
+current_stage: None
+description: null
+last_updated_timestamp: 1703356034962
+name: svm
+run_id: d3e559f6bf0445a98b3ae57ddb3ec91b
+run_link: null
+source: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/d3e559f6bf0445a98b3ae57ddb3ec91b/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/d3e559f6bf0445a98b3ae57ddb3ec91b/artifacts/model
+user_id: null
+version: 1

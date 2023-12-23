@@ -17,6 +17,7 @@ base:
   project: credit_card_approval_prediction
   random_state: 42
   target_col: status
+  test_size: 0.2
   
 raw_data_source:
   application_record: data/raw/application_record.csv
@@ -26,15 +27,110 @@ data_source:
   interim_data: data/interim/joined_data.csv
   null_data: data/interim/null_data.csv
   not_null_data: data/interim/not_null.csv
+  train_data_path: data/processed/train_data.csv
+  test_data_path: data/processed/test_data.csv
+  prediction_data_path: data/prediction/prediction.csv
 
-drop_columns:
+drop_columns: # dropping because columns are not statistically significant
   - 'name_housing_type'
   - 'code_gender'
   - 'flag_own_car'
-  - 'name_education_type'
   - 'name_family_status'
+  - 'flag_mobil'
+  - 'flag_work_phone'
+  - 'flag_phone'
+  - flag_email
+  - 'id'
+  - flag_own_realty
+
+dummy_variable: # not in production
+  - fit_dummy: False
+  # - add columns here 
+
 
 encoder_path:
   fit_encoder: True
-  label_encoder: data/fitted_object/label_encoder.joblib
-  standard_scaler_encoder: data/fitted_object/label_encoder.joblib
+  label_encoder: data/fitted_object/label_encoder.pkl
+  standard_scaler_encoder: data/fitted_object/standard_scaler_encoder.pkl
+
+
+# tuning model data
+tuning:
+  pca_ok: False
+  pca_components: 0.95
+  smote_ok: True
+
+
+# model:
+#   model_path: models/svm/model.pkl
+#   model_name: svm
+#   model_module_name: sklearn.svm.SVC  # provide the model name using sklearn
+#   model_run_id: 1
+#   model_version_note: "First model"
+#   # model_version_path: models/random_forest/model.pkl
+#   model_note: "This is the first model"
+
+
+
+# svm parameters
+# params:
+#   C: 1.0
+#   kernel: rbf
+#   degree: 3
+#   gamma: scale
+#   coef0: 0.0
+#   shrinking: True
+#   probability: False
+#   tol: 0.001
+#   cache_size: 200
+#   verbose: False
+#   max_iter: -1
+#   decision_function_shape: ovr
+#   break_ties: False
+#   random_state: 42
+
+# random forest params
+# params:
+#   n_estimators: 300
+#   criterion: gini
+#   max_depth: None
+#   min_samples_split: 2
+#   min_samples_leaf: 1
+#   min_weight_fraction_leaf: 0.0
+#   max_features: auto
+#   max_leaf_nodes: None
+#   min_impurity_decrease: 0.0
+#   min_impurity_split: None
+#   bootstrap: True
+#   oob_score: False
+#   n_jobs: -1
+#   random_state: 42
+#   verbose: 0
+#   warm_start: False
+#   class_weight: None
+#   ccp_alpha: 0.0
+#   max_samples: None
+
+
+# xgboost
+model:
+  model_path: models/xgb/model.pkl
+  model_name: xgb
+  model_module_name: xgboost.XGBClassifier  # provide the model name using sklearn
+  model_run_id: 1
+  model_version_note: "First model"
+  # model_version_path: models/random_forest/model.pkl
+  model_note: "This is the first model"
+
+# tuning model data
+params:
+  booster: 'gbtree'
+  learning_rate: 0.1
+  n_estimators: 100
+  max_depth: 3
+  subsample: 1.0
+  colsample_bytree: 1.0
+  gamma: 0
+  objective: 'binary:logistic'
+  eval_metric: 'logloss'
+  random_state: 42

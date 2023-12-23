@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/6e68bf3154444a94826a2fd1b2264365/artifacts
+deleted_time: 1703357161994
+end_time: 1703354378483
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 6e68bf3154444a94826a2fd1b2264365
+run_name: bedecked-frog-825
+run_uuid: 6e68bf3154444a94826a2fd1b2264365
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703354378455
+status: 4
+tags: []
+user_id: goldyrana

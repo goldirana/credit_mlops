@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/goldyrana/work/ATU/Sem1/predictive/t_project1/credit_card_approval_prediction/mlruns/0/f66ca4da64f5492f9e046c2d5371867a/artifacts
+end_time: 1703355169986
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f66ca4da64f5492f9e046c2d5371867a
+run_name: placid-grouse-616
+run_uuid: f66ca4da64f5492f9e046c2d5371867a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703355167635
+status: 3
+tags: []
+user_id: goldyrana
