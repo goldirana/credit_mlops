@@ -1,0 +1,40 @@
+base:
+  label_mapper: # First mapper to label the status column to mark in number
+      "-1": "0"
+      "0": "1"
+      "1": "1"
+      "2": "2"
+      "3": "3"
+      "4": "4"
+      "5": "5"
+      "C": "-1"
+      "X": "0"
+
+  mapper_agg_function: "sum" # to create labels for each customer becauser of multiple records in credit_record
+  second_label_mapper: # to bucket the labels defined above
+      "greater_than": "1" # bad client 
+      "less_than": "0" # good client, because loan pays on time
+  project: credit_card_approval_prediction
+  random_state: 42
+  target_col: status
+  
+raw_data_source:
+  application_record: data/raw/application_record.csv
+  credit_record: data/raw/credit_record.csv
+
+data_source:
+  interim_data: data/interim/joined_data.csv
+  null_data: data/interim/null_data.csv
+  not_null_data: data/interim/not_null.csv
+
+drop_columns:
+  - 'name_housing_type'
+  - 'code_gender'
+  - 'flag_own_car'
+  - 'name_education_type'
+  - 'name_family_status'
+
+encoder_path:
+  fit_encoder: True
+  label_encoder: data/fitted_object/label_encoder.joblib
+  standard_scaler_encoder: data/fitted_object/label_encoder.joblib

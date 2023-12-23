@@ -1,0 +1,31 @@
+stages:
+  create_interm_data:
+    cmd: python src/data/make_dataset.py --config=params.yaml
+    deps:
+    - src/data/make_dataset.py
+    - data/raw/application_record.csv
+    - data/raw/credit_record.csv
+    outs:
+    - data/interim/joined_data.csv
+
+  process_data:
+    cmd: python src/data/process_data.py --config=params.yaml
+    deps:
+    - data/interim/joined_data.csv
+    - src/data/process_data.py
+    # - data/fiited_object/label_encoder.joblib
+    # - data/fitted_object/standard_scaler_encoder.joblib
+    outs:
+    - data/interim/not_null.csv
+    - data/interim/null_data.csv
+
+  feature_engineering:
+    cmd: python src/features/build_features.py --config=params.yaml
+    deps:
+    - data/interim/not_null.csv
+    - data/interim/null_data.csv
+    - src/features/build_features.py
+    outs:
+    - data/processed/processed_data.csv
+
+  

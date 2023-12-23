@@ -1,0 +1,28 @@
+# local package
+-e .
+
+# external requirements
+
+# data science packages
+pandas 
+polars
+numpy
+scipy
+dvc
+
+# machine learning packages
+xgboost
+catboost
+mlflow
+
+# data visualization packages
+plotly
+seaborn
+matplotlib
+
+# web app packages
+flask
+gunicorn
+pytest
+pytest
+

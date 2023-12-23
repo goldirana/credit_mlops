@@ -1,0 +1,42 @@
+schema: '2.0'
+stages:
+  create_interm_data:
+    cmd: python src/data/make_dataset.py --config=params.yaml
+    deps:
+    - path: data/raw/application_record.csv
+      hash: md5
+      md5: 3ee109d7ca583ed22148b855c8296a15
+      size: 54342959
+    - path: data/raw/credit_record.csv
+      hash: md5
+      md5: 2f12a6b963c9c52477e03306b33a1f9e
+      size: 15367102
+    - path: src/data/make_dataset.py
+      hash: md5
+      md5: ef710c5afc557d161058941b3d31fe2b
+      size: 3973
+    outs:
+    - path: data/interim/joined_data.csv
+      hash: md5
+      md5: 7ae9f870ddd31548ecde80e208f6e6aa
+      size: 54890894
+  process_data:
+    cmd: python src/data/process_data.py --config=params.yaml
+    deps:
+    - path: data/interim/joined_data.csv
+      hash: md5
+      md5: 7ae9f870ddd31548ecde80e208f6e6aa
+      size: 54890894
+    - path: src/data/process_data.py
+      hash: md5
+      md5: edef7b0234f8aab7945dd90537f8a06c
+      size: 2525
+    outs:
+    - path: data/interim/not_null.csv
+      hash: md5
+      md5: 689dd3ac0cd30012a63a097bb6ee348b
+      size: 2497438
+    - path: data/interim/null_data.csv
+      hash: md5
+      md5: 55088693f56e8f69a5d2e7b79dd13fcb
+      size: 26339534
