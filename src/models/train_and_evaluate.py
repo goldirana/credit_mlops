@@ -95,3 +95,5 @@ if __name__ == "__main__":
         mlflow.log_metric("test_roc_auc", roc_auc_score(test_y, prediction))
         mlflow.log_metric("test_recall", recall_score(test_y, prediction))
         mlflow.log_param("test_log_loss", log_loss(test_y, prediction))
+        
+        
